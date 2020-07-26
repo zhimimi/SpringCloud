@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: microservicecloud-config-dept-client
+    name: config-provider-client
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/clouddb01?serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL&autoReconnect=true&useSSL=false&failOverReadOnly=false
@@ -39,7 +39,7 @@ server:
 spring:
   profiles: test
   application:
-    name: microservicecloud-config-dept-client
+    name: config-provider-client
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/clouddb02?serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL&autoReconnect=true&useSSL=false&failOverReadOnly=false
